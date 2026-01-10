@@ -1,0 +1,468 @@
+{
+    "semesters": [
+        {
+            "number": 1,
+            "subjects": [
+                {
+                    "code": "FI1000",
+                    "name": "Introducción a la Física Clásica",
+                    "shortName": "Intro a la Física",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "MA1001",
+                    "name": "Introducción al Cálculo",
+                    "shortName": "Intro al Cálculo",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "MA1101",
+                    "name": "Introducción al Álgebra",
+                    "shortName": "Intro al Álgebra",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "CC1000",
+                    "name": "Herramientas Computacionales para Ingeniería y Ciencias",
+                    "shortName": "Herramientas",
+                    "requirements": [],
+                    "credits": "3"
+                },
+                {
+                    "code": "CD1100",
+                    "name": "Desafíos de Innovación en Ingeniería y Ciencias",
+                    "shortName": "Desafíos",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "BT1211",
+                    "name": "Aplicaciones de la Biología a la Ingeniería y Ciencias",
+                    "shortName": "Biología",
+                    "requirements": [],
+                    "credits": "3"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "subjects": [
+                {
+                    "code": "FI1100",
+                    "name": "Introducción a la Física Moderna",
+                    "shortName": "Moderna",
+                    "requirements": ["FI1000", "MA1001", "MA1101"],
+                    "credits": "6"
+                },
+                {
+                    "code": "MA1002",
+                    "name": "Cálculo Diferencial e Integral",
+                    "shortName": "Diferencial",
+                    "requirements": ["MA1001"],
+                    "credits": "6"
+                },
+                {
+                    "code": "MA1102",
+                    "name": "Álgebra Lineal",
+                    "shortName": "Lineal",
+                    "requirements": ["MA1101"],
+                    "credits": "6"
+                },
+                {
+                    "code": "CC1002",
+                    "name": "Introducción a la Programación",
+                    "shortName": "Progra",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "CD1201",
+                    "name": "Proyecto de Innovación en Ingeniería y Ciencias",
+                    "shortName": "Proyecto",
+                    "requirements": ["CD1100"],
+                    "credits": "3"
+                },
+                {
+                    "code": "FG0001",
+                    "name": "Formación Integral",
+                    "shortName": "Formación Integral",
+                    "requirements": [],
+                    "credits": "3"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "subjects": [
+                {
+                    "code": "MA2001",
+                    "name": "Cálculo en Varias Variables",
+                    "shortName": "CVV",
+                    "requirements": ["MA1002", "MA1102"],
+                    "credits": "6"
+                },
+                {
+                    "code": "MA2601",
+                    "name": "Ecuaciones Diferenciales Ordinarias",
+                    "shortName": "EDO",
+                    "requirements": ["MA1002", "MA1102"],
+                    "credits": "6"
+                },
+                {
+                    "code": "FI2001",
+                    "name": "Mecánica",
+                    "shortName": "Mecánica",
+                    "requirements": ["FI1100", "MA1002", "MA1102"],
+                    "credits": "6"
+                },
+                {
+                    "code": "FI2003",
+                    "name": "Métodos Experimentales",
+                    "shortName": "Métodos",
+                    "requirements": ["FI1100", "MA1002"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ2211",
+                    "name": "Química",
+                    "shortName": "Química",
+                    "requirements": [],
+                    "credits": "6"
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "subjects": [
+                {
+                    "code": "MA2002",
+                    "name": "Cálculo Avanzado y Aplicaciones",
+                    "shortName": "CAA",
+                    "requirements": ["MA2001", "MA2601"],
+                    "credits": "6"
+                },
+		{
+                    "code": "IN2201",
+                    "name": "Economía",
+                    "shortName": "Econo",
+                    "requirements": ["MA2001"],
+                    "credits": "6"
+                },
+                {
+                    "code": "FI2002",
+                    "name": "Electromagnetismo",
+                    "shortName": "Electro",
+                    "requirements": ["MA2001", "MA2601", "FI2003"],
+                    "credits": "6"
+                },
+                {
+                    "code": "FI2004/IQ2212",
+                    "name": "Termodinámica / Termodinámica Química",
+                    "shortName": "Termo",
+                    "requirements": ["IQ2211", "FI2001", "MA2001"],
+                    "credits": "6"
+                },
+                {
+                    "code": "CD2201",
+                    "name": "Módulo Interdisciplinario",
+                    "shortName": "Módulo",
+                    "requirements": ["CD1201"],
+                    "credits": "3"
+                },
+                {
+                    "code": "FG0002",
+                    "name": "Formación Integral",
+                    "shortName": "Formación Integral",
+                    "requirements": [],
+                    "credits": "3"
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "subjects": [
+                {
+                    "code": "MA3403",
+                    "name": "Probabilidades y Estadística",
+                    "shortName": "Proba y Esta",
+                    "requirements": ["MA2001"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ3213",
+                    "name": "Química Orgánica",
+                    "shortName": "Orgánica",
+                    "requirements": ["IQ2211"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ3311",
+                    "name": "Análisis de procesos",
+                    "shortName": "Análisis",
+                    "requirements": ["MA2601", "FI2004/IQ2212"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ3214",
+                    "name": "Química Inorgánica",
+                    "shortName": "Inorgánica",
+                    "requirements": ["FI2004/IQ2212"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ3211",
+                    "name": "Termodinámica Aplicada",
+                    "shortName": "Termo Aplicada",
+                    "requirements": ["FI2004/IQ2212"],
+                    "credits": "6"
+                }
+    
+    
+        
+            ]
+        },
+        {
+            "number": 6,
+            "subjects": [
+                {
+                    "code": "IQ3111",
+                    "name": "Modelamiento y optimización para ingeniería de procesos",
+                    "shortName": "Opti",
+                    "requirements": ["IQ3311"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ3215",
+                    "name": "Ciencia de los materiales",
+                    "shortName": "Materiales",
+                    "requirements": ["IQ3311"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ3212",
+                    "name": "Fisicoquímica",
+                    "shortName": "FQ",
+                    "requirements": ["IQ3214", "FI2002"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ3312",
+                    "name": "Fenómenos de transporte",
+                    "shortName": "Fenómenos",
+                    "requirements": ["IQ3311", "CD2001", "CD2201"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ2711",
+                    "name": "Sustentabilidad en Ingeniería",
+                    "shortName": "Sustenta",
+                    "requirements": ["IQ3311", "CD2201", "IN2201"],	
+                    "credits": "6"
+                },
+                {
+                    "code": "",
+                    "name": "Taller de Práctica Profesional I",
+                    "shortName": "Taller de Práctica 1",
+                    "requirements": [],	
+                    "credits": "0"
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "subjects": [
+                {
+                    "code": "IQ4112",
+                    "name": "Métodos Matemáticos para Procesos",
+                    "shortName": "Métodos",
+                    "requirements": ["MA3403", "IQ3311/IQ3212"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ4313",
+                    "name": "Operaciones de Transferencia de calor",
+                    "shortName": "Transfer de calor",
+                    "requirements": ["IQ3312/IQ3202", "IQ3111", "IQ3301"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ4712",
+                    "name": "Innovación en Ingeniería y Ciencias",
+                    "shortName": "Innova",
+                    "requirements": ["IQ3711"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IN3301",
+                    "name": "Evaluación de Proyectos",
+                    "shortName": "Evalua",
+                    "requirements": ["IN2201", "IN3141/MA3403/MA3401"],
+                    "credits": "6"
+                },
+                {
+                    "code": "",
+                    "name": "Electivo de Licenciatura",
+                    "shortName": "Electivo",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ4911",
+                    "name": "Práctica Profesional I",
+                    "shortName": "Práctica 1",
+                    "requirements": ["IQ3311"],
+                    "credits": "7"
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "subjects": [
+                {
+                    "code": "IQ4316",
+                    "name": "Operaciones Mecánicas",
+                    "shortName": "Operaciones",
+                    "requirements": ["IQ3312/IQ3202"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ4713",
+                    "name": "Taller de Diseño e Innovación en Proyectos",
+                    "shortName": "Taller 1",
+                    "requirements": ["IQ4712", "IQ3111", "IQ3312"],
+                    "credits": "6"
+                },
+                {
+                    "code": "",
+                    "name": "Electivo de Licenciatura",
+                    "shortName": "Electivo",
+                    "requirements": [],
+                    "credits": "3"
+                },
+                {
+                    "code": "FG0003",
+                    "name": "Formación Integral",
+                    "shortName": "Formación Integral",
+                    "requirements": [],
+                    "credits": "3"
+                },
+                {
+                    "code": "",
+                    "name": "Taller de Práctica Profesional II",
+                    "shortName": "Taller de Práctica 2",
+                    "requirements": [""],	
+                    "credits": "0"
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "subjects": [
+                {
+                    "code": "IQ5317",
+                    "name": "Reactores Avanzados",
+                    "shortName": "Rectores",
+                    "requirements": ["IQ4112/IQ4101/FI3104", "IQ4314/IQ4305"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ5811",
+                    "name": "Laboratorio de Ingeniería de Procesos",
+                    "shortName": "Lab",
+                    "requirements": ["IQ4303/IQ4315", "IQ4801"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ5714",
+                    "name": "Taller de Implementación de Proyectos",
+                    "shortName": "Taller 2",
+                    "requirements": ["IQ4713", "IN3301", "IQ4112"],
+                    "credits": "6"
+                },
+                {
+                    "code": "FE0001",
+                    "name": "Electivo de Especialidad",
+                    "shortName": "Electivo Especialidad",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "FE0002",
+                    "name": "Electivo de Especialidad",
+                    "shortName": "Electivo Especialidad",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "IQ5912",
+                    "name": "Práctica Profesional II",
+                    "shortName": "Práctica 2",
+                    "requirements": ["IQ4911"],
+                    "credits": "14"
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "subjects": [
+                {
+                    "code": "IQ6906",
+                    "name": "Introducción al Trabajo de Título",
+                    "shortName": "E",
+                    "requirements": ["IQ5912", "IQ5811"],
+                    "credits": "3"
+                },
+                {
+                    "code": "IQ5113",
+                    "name": "Dinámica y Control de Procesos",
+                    "shortName": "Dinámica",
+                    "requirements": ["IQ4112", "IQ4315"],
+                    "credits": "6"
+                },
+                {
+                    "code": "IN4273",
+                    "name": "Gestión de Operaciones",
+                    "shortName": "Gestión",
+                    "requirements": ["IN3242", "MA3403"],
+                    "credits": "6"
+                },
+                {
+                    "code": "FE0003",
+                    "name": "Electivo de Especialidad",
+                    "shortName": "Electivo Especialidad",
+                    "requirements": [],
+                    "credits": "3"
+                },
+                {
+                    "code": "IQ5715",
+                    "name": "Taller de Proyectos en Ingeniería o Ciencias",
+                    "shortName": "Taller 3",
+                    "requirements": ["IQ5317", "IQ4315", "IQ5714"],
+                    "credits": "9"
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "subjects": [
+                {
+                    "code": "IQ6919",
+                    "name": "Trabajo de Título",
+                    "shortName": "F",
+                    "requirements": ["IN4273", "IQ5113", "IQ6906", "IQ5715"],
+                    "credits": "24"
+                },
+                {
+                    "code": "EE0004",
+                    "name": "Electivo de Especialidad",
+                    "shortName": "Electivo",
+                    "requirements": [],
+                    "credits": "6"
+                }
+            ]
+        }
+    ]
+}
