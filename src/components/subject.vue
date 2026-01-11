@@ -48,14 +48,14 @@ export default {
   computed: {
     activeClass() {
       if (this.$store.state.activeSubject === this.code) {
-        return 'bg-green-300 dark:bg-green-800 border-2 border-black dark:border-white';
+        return 'bg-pink-500 dark:bg-pink-800 border-2 border-black dark:border-white';
       }
       if (
         this.$store.state.orSubjects.some(subject =>
           subject.includes(this.code)
         )
       ) {
-        return 'bg-red-300 dark:bg-red-800 border-2 border-black border-dashed dark:border-white';
+        return 'bg-indigo-300 dark:bg-indigo-800 border-2 border-black border-dashed dark:border-white';
       }
       if (
         this.$store.state.simultaneousSubjects.some(subject =>
@@ -69,7 +69,7 @@ export default {
           subject.startsWith(this.code)
         )
       ) {
-        return 'bg-blue-300 dark:bg-blue-800 border-4 border-black border-double dark:border-white';
+        return 'bg-purple-300 dark:bg-purple-800 border-4 border-black border-double dark:border-white';
       }
       return this.$store.state.activeSubject
         ? 'dark:bg-gray-800 bg-gray-300 opacity-50 dark:opacity-75'
