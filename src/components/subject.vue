@@ -29,6 +29,7 @@ export default {
   },
   methods: {
     activateSubject() {
+      const identifier = this.code.trim()? this.code : this._uid; //js without trim considers  "" as true
       const simultaneousSubjects = this.requirements.filter(subject =>
         subject.includes('S')
       );
@@ -39,7 +40,7 @@ export default {
         subject => !subject.includes('S') && !subject.includes('/')
       );
       const orSubjects = orSubjectsStrings.map(str => str.split('/'));
-      this.$store.commit('setActiveSubject', this.code);
+      this.$store.commit('setActiveSubject', identifier);
       this.$store.commit('setSimultaneousSubjects', simultaneousSubjects);
       this.$store.commit('setOrSubjects', orSubjects);
       this.$store.commit('setRequiredSubjects', requiredSubjects);
@@ -47,7 +48,8 @@ export default {
   },
   computed: {
     activeClass() {
-      if (this.$store.state.activeSubject === this.code && this.$store.state.activeSubject !== null) {
+      const identifier = this.code.trim()? this.code : this._uid; // Fallback to name if code is empty
+      if (this.$store.state.activeSubject === identifier ) {
         return 'bg-pink-500 dark:bg-pink-800 border-2 border-black dark:border-white';
       }
       if (
