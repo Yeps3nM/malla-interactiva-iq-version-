@@ -263,7 +263,7 @@
                     "credits": "6"
                 },
                 {
-                    "code": "",
+                    "code": "IQ4910",
                     "name": "Taller de Práctica Profesional I",
                     "shortName": "Taller de Práctica 1",
                     "requirements": [],	
@@ -350,10 +350,10 @@
                     "credits": "3"
                 },
                 {
-                    "code": "",
+                    "code": "IQ5910",
                     "name": "Taller de Práctica Profesional II",
                     "shortName": "Taller de Práctica 2",
-                    "requirements": [""],	
+                    "requirements": [],	
                     "credits": "0"
                 }
             ]
