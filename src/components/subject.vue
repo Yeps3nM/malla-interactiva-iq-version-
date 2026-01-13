@@ -47,7 +47,7 @@ export default {
   },
   computed: {
     activeClass() {
-      if (this.$store.state.activeSubject === this.code) {
+      if (this.$store.state.activeSubject === this.code && this.$store.state.activeSubject !== null) {
         return 'bg-pink-500 dark:bg-pink-800 border-2 border-black dark:border-white';
       }
       if (
