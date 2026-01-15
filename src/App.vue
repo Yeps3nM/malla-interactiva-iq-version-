@@ -26,7 +26,7 @@
           </div>
           <div class="flex flex-row items-center mr-4">
             <div
-              class="w-8 h-4 mr-1 bg-purple-500 border-4 border-black border-double dark:bg-purple-800 dark:border-white"
+              class="w-8 h-4 mr-1 bg-violet-400 border-4 border-black border-double dark:bg-violet-800 dark:border-white"
             ></div>
             <span>Ramo requerido</span>
           </div>
@@ -41,7 +41,7 @@
           </div>
           <div class="flex flex-row items-center mr-4">
             <div
-              class="w-8 h-4 mr-1 bg-indigo-500 border-2 border-black border-dashed dark:bg-indigo-800 dark:border-white"
+              class="w-8 h-4 mr-1 bg-cyan-400 border-2 border-black border-dashed dark:bg-cyan-800 dark:border-white"
             ></div>
             <span>Ramos "or" (se necesita uno)</span>
           </div>
