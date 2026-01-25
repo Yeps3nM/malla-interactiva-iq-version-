@@ -57,7 +57,7 @@ export default {
           subject.includes(this.code)
         )
       ) {
-        return 'bg-indigo-300 dark:bg-indigo-800 border-2 border-black border-dashed dark:border-white';
+        return 'bg-cyan-400 dark:bg-cyan-800 border-2 border-black border-dashed dark:border-white';
       }
       if (
         this.$store.state.simultaneousSubjects.some(subject =>
