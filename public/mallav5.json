@@ -159,7 +159,7 @@
                     "credits": "6"
                 },
                 {
-                    "code": "FI2004/IQ2212",
+                    "code": "FI2004,IQ2212",
                     "name": "Termodinámica / Termodinámica Química",
                     "shortName": "Termo",
                     "requirements": ["IQ2211", "FI2001", "MA2001"],
@@ -202,21 +202,21 @@
                     "code": "IQ3311",
                     "name": "Análisis de procesos",
                     "shortName": "Análisis",
-                    "requirements": ["MA2601", "FI2004/IQ2212"],
+                    "requirements": ["MA2601", "FI2004,IQ2212"],
                     "credits": "6"
                 },
                 {
                     "code": "IQ3214",
                     "name": "Química Inorgánica",
                     "shortName": "Inorgánica",
-                    "requirements": ["FI2004/IQ2212"],
+                    "requirements": ["FI2004,IQ2212"],
                     "credits": "6"
                 },
                 {
                     "code": "IQ3211",
                     "name": "Termodinámica Aplicada",
                     "shortName": "Termo Aplicada",
-                    "requirements": ["FI2004/IQ2212"],
+                    "requirements": ["FI2004,IQ2212"],
                     "credits": "6"
                 }
     
@@ -238,7 +238,7 @@
                     "code": "IQ3215",
                     "name": "Ciencia de los materiales",
                     "shortName": "Materiales",
-                    "requirements": ["IQ3311"],
+                    "requirements": ["FI2004,IQ2212"],
                     "credits": "6"
                 },
                 {
