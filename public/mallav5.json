@@ -285,7 +285,7 @@
                     "code": "IQ4313",
                     "name": "Operaciones de Transferencia de calor",
                     "shortName": "Transfer de calor",
-                    "requirements": ["IQ3312/IQ3202", "IQ3111", "IQ3301"],
+                    "requirements": ["IQ3312", "IQ3111"],
                     "credits": "6"
                 },
                 {
@@ -299,7 +299,7 @@
                     "code": "IN3301",
                     "name": "Evaluación de Proyectos",
                     "shortName": "Evalua",
-                    "requirements": ["IN2201", "IN3141/MA3403/MA3401"],
+                    "requirements": ["IN2201", "MA3403"],
                     "credits": "6"
                 },
                 {
@@ -325,7 +325,7 @@
                     "code": "IQ4316",
                     "name": "Operaciones Mecánicas",
                     "shortName": "Operaciones",
-                    "requirements": ["IQ3312/IQ3202"],
+                    "requirements": ["IQ3312"],
                     "credits": "6"
                 },
                 {
@@ -365,7 +365,7 @@
                     "code": "IQ5317",
                     "name": "Reactores Avanzados",
                     "shortName": "Rectores",
-                    "requirements": ["IQ4112/IQ4101/FI3104", "IQ4314/IQ4305"],
+                    "requirements": ["IQ4112"],
                     "credits": "6"
                 },
                 {
