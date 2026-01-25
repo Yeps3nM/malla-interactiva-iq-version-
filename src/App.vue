@@ -35,7 +35,7 @@
             v-if="$store.state.mallaActiva === 'mallav3'"
           >
             <div
-              class="w-8 h-4 mr-1 bg-yellow-300 border-2 border-black border-dotted dark:bg-yellow-600 dark:border-white"
+              class="w-8 h-4 mr-1 bg-cyan-300 border-2 border-black border-dotted dark:bg-cyan-600 dark:border-white"
             ></div>
             <span>Ramos simultáneos</span>
           </div>
